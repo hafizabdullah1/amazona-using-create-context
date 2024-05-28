@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 900;
+    color: #fff !important;
+}
